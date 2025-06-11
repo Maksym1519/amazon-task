@@ -1,0 +1,58 @@
+{
+    "slides": [
+      {
+        "id": 1,
+        "logo": "/logo1.svg",
+        "text": "Sales Fortuna made managing sales easier and helped us focus on customers. Its tools have been crucial for our growth and client satisfaction.",
+        "quote": "/quote.svg",
+        "ava": "/ava1.png",
+        "name": "Ethan Morgan",
+        "position": "Founder and CEO, Serene Living Products"
+      },
+      {
+        "id": 2,
+        "logo": "/logo2.svg",
+        "text": "Sales Fortuna has made sales so much easier for us. It saves time, simplifies the whole process, and helps us land more deals without extra hassle.",
+        "quote": "/quote.svg",
+        "ava": "/ava2.png",
+        "name": "Olivia Hayes",
+        "position": "Owner, Starlight Creations"
+      },
+      {
+        "id": 3,
+        "logo": "/logo3.svg",
+        "text": "Sales Fortuna has made sales so much easier for us. It saves time, simplifies the whole process, and helps us land more deals without extra hassle.",
+        "quote": "/quote.svg",
+        "ava": "/ava3.png",
+        "name": "Alexander Reed",
+        "position": "Co-Founder, Opulent Living Group"
+      },
+      {
+        "id": 4,
+        "logo": "/logo1.svg",
+        "text": "Sales Fortuna made managing sales easier and helped us focus on customers. Its tools have been crucial for our growth and client satisfaction.",
+        "quote": "/quote.svg",
+        "ava": "/ava1.png",
+        "name": "Ethan Morgan",
+        "position": "Founder and CEO, Serene Living Products"
+      },
+      {
+        "id": 5,
+        "logo": "/logo2.svg",
+        "text": "Sales Fortuna has made sales so much easier for us. It saves time, simplifies the whole process, and helps us land more deals without extra hassle.",
+        "quote": "/quote.svg",
+        "ava": "/ava2.png",
+        "name": "Olivia Hayes",
+        "position": "Owner, Starlight Creations"
+      },
+      {
+        "id": 6,
+        "logo": "/logo3.svg",
+        "text": "Sales Fortuna has made sales so much easier for us. It saves time, simplifies the whole process, and helps us land more deals without extra hassle.",
+        "quote": "/quote.svg",
+        "ava": "/ava3.png",
+        "name": "Alexander Reed",
+        "position": "Co-Founder, Opulent Living Group"
+      }
+    ]
+  }

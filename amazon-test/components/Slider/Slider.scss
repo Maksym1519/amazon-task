@@ -1,0 +1,61 @@
+.slider-container {
+  position: relative;
+  margin: auto;
+}
+
+.swiper {
+  max-width: 1064px;
+}
+
+.swiper-slide {
+  max-width: 380px !important;
+  height: auto !important;
+}
+
+.custom-prev-btn,
+.custom-next-btn {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  cursor: pointer;
+
+  &.disabled {
+    opacity: 0.5;
+  }
+}
+
+.custom-prev-btn {
+  left: 0px;
+}
+
+.custom-next-btn {
+  right: 0px;
+}
+
+.custom-pagination {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+
+    &-active {
+        background: var(--darkGray) !important;
+    }
+}
+
+@media (max-width: 1240px) {
+    .slider-container {
+        max-width: 1000px;
+    }
+
+    .swiper {
+        max-width: 80%;
+    }
+
+}
