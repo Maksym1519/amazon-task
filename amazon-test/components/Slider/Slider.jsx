@@ -36,6 +36,7 @@ const Slider = ({
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={slidesPerView}
+        centeredSlides={false}
         spaceBetween={spaceBetween}
         navigation={{
           nextEl: ".custom-next-btn",
@@ -48,6 +49,20 @@ const Slider = ({
         autoplay={
           autoplay ? { delay: 3000, disableOnInteraction: false } : false
         }
+        breakpoints={{
+          0: {
+            slidesPerView: 1.1,
+            spaceBetween: 8,
+          },
+          675: {
+            slidesPerView: 2,
+            spaceBetween: 12,
+          },
+          1024: {
+            slidesPerView: slidesPerView,
+            spaceBetween: spaceBetween,
+          },
+        }}
         onSwiper={handleSwiperInit}
         onSlideChange={handleSlideChange}
         className="swiper"

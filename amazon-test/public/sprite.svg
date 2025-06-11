@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 68" id="btn-prev">
-        <circle cx="34" cy="34" r="33.5" fill="white" stroke="#D1CFCF"></circle>
+    <symbol viewBox="0 0 68 68" id="btn-prev">
+        <circle cx="34" cy="34" r="33.5" stroke="#D1CFCF"></circle>
         <path
             d="M40.0781 19.5234L23.3438 32.9766L40.0547 46.6641L42.3516 44.1562L29.9063 32.8359L42.1875 22.125L40.0781 19.5234Z"
-            fill="#707070"></path>
+            fill="currentColor"></path>
     </symbol>
 
-    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 68" id="btn-next">
-        <circle cx="34" cy="34" r="33.5" transform="matrix(-1 0 0 1 68 0)" fill="white"
-            stroke="#D1CFCF"></circle>
+    <symbol viewBox="0 0 68 68" id="btn-next">
+        <circle cx="34" cy="34" r="33.5" transform="matrix(-1 0 0 1 68 0)" stroke="#D1CFCF"></circle>
         <path
             d="M27.9219 19.5234L44.6562 32.9766L27.9453 46.6641L25.6484 44.1562L38.0937 32.8359L25.8125 22.125L27.9219 19.5234Z"
-            fill="#707070"></path>
+            fill="currentColor"></path>
     </symbol>
-
 </svg>
